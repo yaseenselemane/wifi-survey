@@ -73,7 +73,7 @@ powershell -File wifi-scan.ps1 -SelfTest
 4. **2.4 GHz reaches further, 5 GHz goes faster.** The phones with weaker signals had moved to 2.4 GHz (earlier, from further away, several sat on 5 GHz at −85 to −95 dBm). Lower frequencies pass through walls better, but there are only 3 non-overlapping 2.4 GHz channels (1, 6, 11) and far less speed.
 5. **Channel overlap is a 2.4 GHz problem.** 2.4 GHz channels are 5 MHz apart but 20 MHz wide, so neighbouring numbers overlap. 5 GHz channels like 36 don't. With no neighbours in range, channel 10 is fine here. In a block of flats it would matter a lot.
 6. **A wired backhaul is the best thing for a mesh.** With a wireless backhaul every packet crosses the air twice, which halves speed. The Ethernet link between the 5G unit and the extender avoids that.
-7. **Know your security mode.** The 5 GHz network uses **WPA3** (SAE), which resists offline password guessing. The 2.4 GHz one is still WPA2, kept for older devices. That's the weaker of the two, and it shares the same password.
+7. **Know your security mode.** The 5 GHz network uses **WPA3** (SAE), which resists offline password guessing. The 2.4 GHz one is still WPA2, kept for older devices, so it's the weaker of the two and the one an attacker would target.
 8. **Link rate isn't throughput.** 867 Mbps is the radio's raw rate. Real speed is limited by the 5G internet link (about 28 Mbps measured in [vantage](https://github.com/yaseenselemane/vantage)), so better WiFi wouldn't make the internet faster here.
 9. **Windows caches scans.** `netsh wlan show networks` shows the last scan, not now. I asked the WLAN service for a fresh scan (`WlanScan`) before reading it, or the list is incomplete.
 
