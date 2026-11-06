@@ -1,0 +1,8 @@
+﻿
+SSID        Auth          Signal Radio    Band  Channel
+----        ----          ------ -----    ----  -------
+home-5G WPA3-Personal     97 802.11ax 5 GHz      36
+
+
+home-5G          ch 36  overlaps with 0 other access point(s)
+

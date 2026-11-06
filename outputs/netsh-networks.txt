@@ -1,0 +1,61 @@
+﻿ 
+Interface name : Wi-Fi 
+There are 3 networks currently visible. 
+
+SSID 1 : 
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : xx:xx:xx:xx:xx:xx
+         Signal             : 91%  
+         Radio type         : 802.11ac
+         Band               : 2.4 GHz
+         Channel            : 10 
+         Bss Load:
+             Connected Stations:         0
+             Channel Utilization:        27 (10 %)
+             Medium Available Capacity:  31250 (1000000 us/s)
+         QoS MSCS Supported    : 0
+         QoS Map Supported     : 0
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 2 : home-5G
+    Network type            : Infrastructure
+    Authentication          : WPA3-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : xx:xx:xx:xx:xx:xx
+         Signal             : 96%  
+         Radio type         : 802.11ax
+         Band               : 5 GHz
+         Channel            : 36 
+         Details            :  (H2E supported) 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        4 (1 %)
+             Medium Available Capacity:  31250 (1000000 us/s)
+         QoS MSCS Supported    : 0
+         QoS Map Supported     : 0
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 3 : home-2.4G
+    HESSID                  : xx:xx:xx:xx:xx:xx
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : xx:xx:xx:xx:xx:xx
+         Signal             : 92%  
+         Radio type         : 802.11ac
+         Band               : 2.4 GHz
+         Channel            : 10 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        27 (10 %)
+             Medium Available Capacity:  31250 (1000000 us/s)
+         QoS MSCS Supported    : 0
+         QoS Map Supported     : 1
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+
