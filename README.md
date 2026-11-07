@@ -2,7 +2,7 @@
 
 A WiFi survey of my own home network, measured from **both ends**: what my laptop hears from the access point, and what the access point hears from every device (read from the router's admin API with [vantage](https://github.com/yaseenselemane/vantage)). Network names and MAC addresses are hidden. The raw output is in [`outputs/`](outputs/).
 
-Part of my networking labs: [ping and traceroute](https://github.com/yaseenselemane/ping-and-traceroute) · [nmap](https://github.com/yaseenselemane/nmap-field-notes) · **WiFi survey** · [Packet Tracer](https://github.com/yaseenselemane/cisco-packet-tracer-labs) · [vantage](https://github.com/yaseenselemane/vantage)
+Part of my networking labs: [ping and traceroute](https://github.com/yaseenselemane/ping-and-traceroute) · [nmap](https://github.com/yaseenselemane/nmap-field-notes) · **WiFi survey** · [Packet Tracer](https://github.com/yaseenselemane/cisco-packet-tracer-labs) · [subnet calculator](https://github.com/yaseenselemane/subnet-calculator) · [vantage](https://github.com/yaseenselemane/vantage)
 
 ---
 
